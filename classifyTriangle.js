@@ -1,4 +1,4 @@
-function classifyTriangle(a, b, c) {
+function classifyTriangle(a, b, c) { 
     // Check input conditions C1, C2, and C3
     if (a < 1 || a > 200 || b < 1 || b > 200 || c < 1 || c > 200) {
         return "Error: Input conditions C1, C2, or C3 failed.";
